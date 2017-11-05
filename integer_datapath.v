@@ -13,10 +13,10 @@ module integer_datapath(clk, reset, W_En, S_Sel, W_Adr, R_Adr, S_Adr, Alu_Op, DS
                         C, N, Z, Reg_Out, Alu_Out);
     input         clk, reset, W_En, S_Sel;
     input  [ 2:0] W_Adr, R_Adr, S_Adr;
-    input  [ 3:0] Alu_op;
+    input  [ 3:0] Alu_Op;
     input  [15:0] DS;
     output        C, N, Z;
-    output [15:0] Reg_Out, Alu_Out
+    output [15:0] Reg_Out, Alu_Out;
     
     wire   [15:0] Reg_S, S_Mux;
     

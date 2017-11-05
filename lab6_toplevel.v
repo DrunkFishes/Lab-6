@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module lab6_toplevel(clk, reset, clk_reg, S_Sel, W_Adr, R_Adr, S_Adr, Alu_Op
+module lab6_toplevel(clk, reset, clk_reg, S_Sel, W_Adr, R_Adr, S_Adr, Alu_Op,
                      An, a, b, c, d, e, f, g);
     input clk, reset, clk_reg, S_Sel;
     input [2:0] W_Adr, R_Adr, S_Adr;
@@ -36,7 +36,7 @@ module lab6_toplevel(clk, reset, clk_reg, S_Sel, W_Adr, R_Adr, S_Adr, Alu_Op
     one_shot    db(clk_reg, clk500_out, reset, dbclk_reg); 
     
     /*integer_datapath(clk, reset, W_En, S_Sel, W_Adr, R_Adr, S_Adr, Alu_Op, DS, 
-                       C, N, Z, Reg_Out, Alu_Out);*/
+                       C, N, Z, Reg_Out, Alu_Out)*/
     integer_datapath    dp(dbclk_reg, reset, 1'b1, S_Sel, W_Adr, R_Adr, S_Adr, Alu_Op, 16'hAA55, C, N, Z, Reg_Out, Alu_Out);
     
     
