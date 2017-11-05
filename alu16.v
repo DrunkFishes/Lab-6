@@ -3,7 +3,7 @@
 //
 //Author:	R.W. Allison
 //Used by:	Steven Phan
-//Email:		1anh21@gmail.com
+//Email:    1anh21@gmail.com
 //Filename:	alu16.v
 //Date:		Nov 14, 2017
 //Version:	1.0	
