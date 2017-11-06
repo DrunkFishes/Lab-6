@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 //
-//Author:	R.W. Allison
+//Author:	Steven Phan
 //Used by:	Steven Phan
 //Email:    1anh21@gmail.com
 //Filename:	alu16.v
