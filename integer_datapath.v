@@ -2,12 +2,15 @@
  /***************************************************************************
  * Author:   Benjamin Adinata
  * Email:    benjaminadinata@yahoo.com
- * Filename: 
- * Date:     
+ * Filename: integer_datapath.v
+ * Date:     November 5, 2017
  * Version:  1.0
- * Purpose:  
+ * Purpose:  The purpose of this module is to instantiate the register file
+ *           and the ALU to create the integer datapath module. This module
+ *           allows us to perform functions specified in the ALU using the
+ *           registers in the register file.
  *					
- * Notes:    		
+ * Notes:    
  **************************************************************************/
 module integer_datapath(clk, reset, W_En, S_Sel, W_Adr, R_Adr, S_Adr, Alu_Op, DS,
                         C, N, Z, Reg_Out, Alu_Out);
